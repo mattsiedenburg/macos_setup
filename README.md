@@ -4,10 +4,10 @@ Documenting my macOS setup
 
 - [Homebrew](#Homebrew)
 - [Tools](#Tools)
-    - [Command Line](#Command_Line)
+    - [Command Line](#Command-Line)
     - [Apps](#Apps)
 - [zsh](#zsh)
-    - [zsh Plugins](#zsh_Plugins)
+    - [zsh Plugins](#zsh-Plugins)
     - [.zshrc](#.zshrc)
     - [Starship](#Starship)
     - [iTerm2](#iTerm2)
