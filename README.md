@@ -30,7 +30,7 @@ brew install \
     bat \
     fzf \
     zoxide \
-    htop \
+    htop
 ```
 
 ### Apps
@@ -40,7 +40,7 @@ brew install \
     iterm2 \
     visual-studio-code \
     firefox \
-    docker-desktop \
+    docker-desktop
 ```
 
 ## zsh
