@@ -2,15 +2,15 @@
 
 Documenting my macOS setup
 
-- [Homebrew](#Homebrew)
-- [Tools](#Tools)
-    - [Command Line](#Command-Line)
-    - [Apps](#Apps)
+- [Homebrew](#homebrew)
+- [Tools](#tools)
+    - [Command Line](#command-line)
+    - [Apps](#apps)
 - [zsh](#zsh)
-    - [zsh Plugins](#zsh-Plugins)
+    - [zsh Plugins](#zsh-plugins)
     - [.zshrc](#.zshrc)
-    - [Starship](#Starship)
-    - [iTerm2](#iTerm2)
+    - [Starship](#starship)
+    - [iTerm2](#iterm2)
 
 ## Homebrew
 
@@ -40,7 +40,8 @@ brew install \
     iterm2 \
     visual-studio-code \
     firefox \
-    docker-desktop
+    docker-desktop \
+    scroll-reverser
 ```
 
 ## zsh
