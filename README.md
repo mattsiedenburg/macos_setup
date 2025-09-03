@@ -28,7 +28,9 @@ brew install \
     git \
     eza \
     bat \
+    bat-extras \
     fzf \
+    ripgrep \
     zoxide \
     htop
 ```
