@@ -32,7 +32,7 @@ brew install \
     fzf \
     ripgrep \
     zoxide \
-    tldr \
+    tlrc \
     htop
 ```
 
