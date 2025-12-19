@@ -8,7 +8,7 @@ Documenting my macOS setup
     - [Apps](#apps)
 - [zsh](#zsh)
     - [zsh Plugins](#zsh-plugins)
-    - [.zshrc](#.zshrc)
+    - [zshrc](#zshrc)
     - [Starship](#starship)
     - [iTerm2](#iterm2)
 
@@ -61,7 +61,7 @@ brew install \
     font-fantasque-sans-mono-nerd-font # or other nerd font
 ```
 
-### .zshrc
+### zshrc
 
 ```bash
 eval "$(starship init zsh)"
