@@ -92,7 +92,7 @@ fi
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
-### iterm2
+### iTerm2
 
 ```bash
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
