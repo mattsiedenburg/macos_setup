@@ -12,10 +12,20 @@ Documenting my macOS setup
     - [Starship](#starship)
     - [iTerm2](#iterm2)
 
+## Enable Touch ID for sudo
+
+```bash
+sed -e 's/^#auth/auth/' /etc/pam.d/sudo_local.template | sudo tee /etc/pam.d/sudo_local
+```
+
 ## Homebrew
 
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+echo >> /Users/$USER/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv zsh)"' >> /Users/$USER/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 ```
 
 ## Tools
