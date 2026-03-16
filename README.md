@@ -2,6 +2,7 @@
 
 Documenting my macOS setup
 
+- [Enable Touch ID for sudo](#enable-touch-id-for-sudo)
 - [Homebrew](#homebrew)
 - [Tools](#tools)
     - [Command Line](#command-line)
