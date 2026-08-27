@@ -13,7 +13,7 @@ Documenting my macOS setup
     - [zshrc](#zshrc)
 - [Starship](#starship)
 - [Ghostty](#ghostty)
-    - [Ghostty config](ghostty-config)
+    - [Ghostty config](#ghostty-config)
 - [iTerm2](#iterm2)
 
 ## Enable Touch ID for sudo
