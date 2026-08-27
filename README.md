@@ -148,6 +148,3 @@ tools/import-scheme.sh 'schemes/GruvboxLight.itermcolors'
 cd ..
 rm -rf iTerm2-Color-Schemes/
 ```
-
-```bash
-cp com.googlecode.iterm2.plist ~/Library/Preferences/
