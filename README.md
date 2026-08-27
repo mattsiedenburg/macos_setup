@@ -11,8 +11,8 @@ Documenting my macOS setup
 - [zsh](#zsh)
     - [zsh Plugins](#zsh-plugins)
     - [zshrc](#zshrc)
-    - [Starship](#starship)
-    - [iTerm2](#iterm2)
+- [Starship](#starship)
+- [iTerm2](#iterm2)
 
 ## Enable Touch ID for sudo
 
@@ -113,13 +113,13 @@ if type brew &>/dev/null; then
 fi
 ```
 
-### Starship
+## Starship
 
 ```nash
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
-### iTerm2
+## iTerm2
 
 ```bash
 git clone https://github.com/mbadolato/iTerm2-Color-Schemes.git
