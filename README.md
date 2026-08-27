@@ -12,6 +12,8 @@ Documenting my macOS setup
     - [zsh Plugins](#zsh-plugins)
     - [zshrc](#zshrc)
 - [Starship](#starship)
+- [Ghostty](#ghostty)
+    - [Ghostty config](ghostty-config)
 - [iTerm2](#iterm2)
 
 ## Enable Touch ID for sudo
