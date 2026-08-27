@@ -7,6 +7,7 @@ Documenting my macOS setup
 - [Tools](#tools)
     - [Command Line](#command-line)
     - [Apps](#apps)
+- [fish](#fish)
 - [zsh](#zsh)
     - [zsh Plugins](#zsh-plugins)
     - [zshrc](#zshrc)
@@ -56,6 +57,20 @@ brew install \
     firefox \
     docker-desktop \
     scroll-reverser
+```
+
+## fish
+
+```bash
+command -v fish | sudo tee -a /etc/shells
+chsh -s "$(command -v fish)"
+```
+
+### configure fish
+
+```bash
+set -U fish_greeting ""
+fish_config theme save dracula
 ```
 
 ## zsh
