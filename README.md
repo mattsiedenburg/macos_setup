@@ -119,6 +119,23 @@ fi
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
+## Ghostty
+
+```bash
+brew install ghostty
+mkdir -p ~/.config/ghostty
+touch ~/.config/ghostty/config
+```
+
+### Ghostty config
+
+```ini
+font-family = Monaco
+font-size = 18.0
+shell-integration-features = no-cursor
+cursor-style = block
+```
+
 ## iTerm2
 
 ```bash
