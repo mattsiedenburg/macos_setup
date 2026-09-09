@@ -72,7 +72,7 @@ chsh -s "$(command -v fish)"
 ### configure fish
 
 ```bash
-set -U fish_greeting ""
+set -U fish_greeting
 fish_config theme save dracula
 ```
 
@@ -117,7 +117,7 @@ fi
 
 ## Starship
 
-```nash
+```bash
 starship preset gruvbox-rainbow -o ~/.config/starship.toml
 ```
 
