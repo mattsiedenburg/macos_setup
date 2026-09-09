@@ -3,6 +3,7 @@
 Documenting my macOS setup
 
 - [Enable Touch ID for sudo](#enable-touch-id-for-sudo)
+- [Clear the dock](#clear-the-dock)
 - [Homebrew](#homebrew)
 - [Tools](#tools)
     - [Command Line](#command-line)
@@ -20,6 +21,12 @@ Documenting my macOS setup
 
 ```bash
 sed -e 's/^#auth/auth/' /etc/pam.d/sudo_local.template | sudo tee /etc/pam.d/sudo_local
+```
+
+## Clear the dock
+
+```bash
+defaults delete com.apple.dock persistent-apps; killall Dock
 ```
 
 ## Homebrew
